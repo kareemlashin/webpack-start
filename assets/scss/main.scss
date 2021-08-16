@@ -1,0 +1,21 @@
+@import "./abstracts/functions";
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+@import "./base/fonts";
+@import "./vendors/bootstrap";
+@font-face {
+    font-family: myFirstFont;
+    src: url('../fonts/Cairo-Light.ttf');
+}
+
+* {
+    font-family: myFirstFont !important;
+}
+
+//scss here
+body {
+    background-color: green;
+}
+
+
+/*end*/

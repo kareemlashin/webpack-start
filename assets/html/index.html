@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML Starter</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <%= require('html-loader!./partials/browserupgrade.html') %>
+
+        <div>
+            <%= require('html-loader!./partials/nav.html') %>
+        </div>
+        <div>
+            <%= require('html-loader!./partials/head.html') %>
+
+        </div>
+        <div>
+            <%= require('html-loader!./partials/main.html') %>
+
+        </div>
+        <div>dsd dsd
+            <img src="./../images/logo.jpg" width="30" height="30" class="d-inline-block align-top rounded" alt="">
+        </div>
+
+</body>
+
+</html>
